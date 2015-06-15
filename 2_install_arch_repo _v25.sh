@@ -133,6 +133,7 @@ systemctl start vnstat
 
         # U T I L I T I E S #
 
+sudo pacman -S file-roller
 
         # P R I N T E R #
 
