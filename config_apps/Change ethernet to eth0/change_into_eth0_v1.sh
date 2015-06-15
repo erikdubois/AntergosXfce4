@@ -19,7 +19,6 @@
 #   `+ydmmmdddddddddddddddddddmmmmdy/.     
 #      `.:+ooyyddddddddddddyyso+:.`
 #======================================================================================
-#                              X F C E 4
 # 
 # Author  : Erik Dubois at http://www.erikdubois.be
 # License : Distributed under the terms of GNU GPL version 2 or later

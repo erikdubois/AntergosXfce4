@@ -19,15 +19,14 @@
 #   `+ydmmmdddddddddddddddddddmmmmdy/.     
 #      `.:+ooyyddddddddddddyyso+:.`
 #======================================================================================
-#                              X F C E 4 
-# 
+
+#======================================================================================
+#       
 # Author  : Erik Dubois at http://www.erikdubois.be
 # License : Distributed under the terms of GNU GPL version 2 or later
 # 
 # AS ALLWAYS, KNOW WHAT YOU ARE DOING.
 #======================================================================================
-
-# Made to be installed on a Antergos Gnome Arch
 
 # fstab for ssd 
 # defaults,noatime,discard
