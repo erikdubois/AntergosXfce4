@@ -19,7 +19,7 @@
 #   `+ydmmmdddddddddddddddddddmmmmdy/.     
 #      `.:+ooyyddddddddddddyyso+:.`
 #======================================================================================
-#                              X F C E 4
+#                              X F C E 4 
 # 
 # Author  : Erik Dubois at http://www.erikdubois.be
 # License : Distributed under the terms of GNU GPL version 2 or later
@@ -28,46 +28,35 @@
 #======================================================================================
 
 
-1 KEYBOARD
 
-sudo loadkeys be-latin1    in order to have azerty KEYBOARD
+        # S A M B A #
 
-change also the following file to make it permanent
+# mkdir ~/Upload
+# http://askubuntu.com/questions/101350/software-similar-to-nautilus-share-in-thunar
+# net usershare add %n %f "" Everyone:F guest_ok=y && chmod 777 %f
 
-sudo nano /etc/vconsole.conf
+sudo pacman -S samba
+sudo cp  /etc/samba/smb.conf.default /etc/samba/smb.conf
+sudo systemctl enable smbd.service
+sudo systemctl start smbd.service
+sudo systemctl enable nmbd.service
+sudo systemctl start nmbd.service
+sudo smbpasswd -a erik
 
-change your keyboard from "be"  to "be-latin1"
+#access samba share windows
+sudo pacman -S gvfs-smb
+#access samba share mac
+sudo pacman -S gvfs-afp
 
-Do the same in gnome - search for keyboard and add Belgian keyboard
+# sudo systemctl restart ... if you run into trouble
+# testparm will check the conf file for errors
 
+# red hat samba sharing config 
+packer system-config-samba --noedit
 
-
-
-	E X T R A
-
-
-NVIDIA DRIVERS
-
-sudo pacman -S nvidia   and press a few times on TAB - see on nvidia what number
-of driver you should install
-
-
-CNCHI (if during installation cnchi gives you trouble)
-
-
-Download cnchi from github :
-
-	From the ISO, close Cnchi and run this commands from a terminal:
-	sudo pacman -S git
-	sudo rm -rf /usr/share/cnchi
-	git clone https://github.com/Antergos/cnchi --depth=1
-	cd cnchi
-	./run﻿
+echo "Run system-config-samba to set up shares"
 
 
-Download cnchi from repo : 
-
-	sudo pacman -Syu
-	sudo pacman -S cnchi
-
-
+echo "########################################"
+echo "######## T H E   E N D  + R E B O O T ##"
+echo "########################################"

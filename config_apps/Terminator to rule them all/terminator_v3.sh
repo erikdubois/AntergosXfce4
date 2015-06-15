@@ -19,7 +19,7 @@
 #   `+ydmmmdddddddddddddddddddmmmmdy/.     
 #      `.:+ooyyddddddddddddyyso+:.`
 #======================================================================================
-#                              X F C E 4
+#                              G N O M E
 # 
 # Author  : Erik Dubois at http://www.erikdubois.be
 # License : Distributed under the terms of GNU GPL version 2 or later
@@ -27,47 +27,15 @@
 # AS ALLWAYS, KNOW WHAT YOU ARE DOING.
 #======================================================================================
 
+# open your currently terminal application gnome-terminal
+# http://askubuntu.com/questions/76712/setting-nautilus-open-terminal-to-launch-terminator-rather-than-gnome-terminal
 
-1 KEYBOARD
+# hardcoded in lib - now handled in GIO
 
-sudo loadkeys be-latin1    in order to have azerty KEYBOARD
+# for the moment using nautilus actions
 
-change also the following file to make it permanent
-
-sudo nano /etc/vconsole.conf
-
-change your keyboard from "be"  to "be-latin1"
-
-Do the same in gnome - search for keyboard and add Belgian keyboard
-
-
-
-
-	E X T R A
-
-
-NVIDIA DRIVERS
-
-sudo pacman -S nvidia   and press a few times on TAB - see on nvidia what number
-of driver you should install
-
-
-CNCHI (if during installation cnchi gives you trouble)
-
-
-Download cnchi from github :
-
-	From the ISO, close Cnchi and run this commands from a terminal:
-	sudo pacman -S git
-	sudo rm -rf /usr/share/cnchi
-	git clone https://github.com/Antergos/cnchi --depth=1
-	cd cnchi
-	./run﻿
-
-
-Download cnchi from repo : 
-
-	sudo pacman -Syu
-	sudo pacman -S cnchi
-
+sudo pacman -R gnome-terminal
+sudo ln -s /usr/bin/terminator /usr/bin/gnome-terminal
+sudo pacman -S nautilus-actions
+# import schema in same folder to have the open in terminator
 
