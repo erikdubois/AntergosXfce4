@@ -35,7 +35,7 @@ git add .
 
 # Committing to the local repository with a message containing the time details
 curtime=$(date)
-git commit -m "Automatic Backup @ $curtime"
+git commit -m "Manual Backup @ $curtime"
 
 # Push the local snapshot to a remote destination
 git push origin master
