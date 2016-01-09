@@ -18,8 +18,8 @@ http://build.antergos.com/browse/testing
 
 
 
-![Screenshots](http://erikdubois.be/wp-content/uploads/2015/06/antergosxfce4-1.png)
-![Screenshots](http://erikdubois.be/wp-content/uploads/2015/06/antergosxfce4-2.png)
+![Screenshots](http://i.imgur.com/uFNvoBS.jpg)
+![Screenshots](http://i.imgur.com/b3RFur8.jpg)
 
 
 On the far right you see the conky "Aurora" hosted on Sourceforge.
