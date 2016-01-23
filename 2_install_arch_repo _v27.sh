@@ -37,13 +37,13 @@
 
 ######## A C C E S S O R I E S #########
 
-sudo pacman -S terminator 
+sudo pacman -S terminator --noconfirm
 
-sudo pacman -S unclutter 
+sudo pacman -S unclutter --noconfirm
 
-sudo pacman -S variety
+sudo pacman -S variety --noconfirm
 
-sudo pacman -S plank
+sudo pacman -S plank --noconfirm
 
 # if you need to edit which extension goes with which program
 # sudo pacman -S mime-editor
@@ -57,26 +57,26 @@ sudo pacman -S plank
 
 ######## G R A P H I C S       #########
 
-sudo pacman -S gimp inkscape darktable
+sudo pacman -S gimp inkscape darktable --noconfirm
 
 ######## I N T E R N E T       #########
 
-sudo pacman -S hexchat
-sudo pacman -S filezilla
+sudo pacman -S hexchat --noconfirm
+sudo pacman -S filezilla --noconfirm
 
 # activate multilib in the pacman.conf
 # sudo pacman -S skype
 
 ######## M U L T I M E D I A   #########
 
-sudo pacman -S vlc 
-#sudo pacman -S clementine
-sudo pacman -S shotwell
+sudo pacman -S vlc --noconfirm
+#sudo pacman -S clementine --noconfirm
+sudo pacman -S shotwell --noconfirm
 
 
 ######## O F F I C E           #########
 
-sudo pacman -S geary
+sudo pacman -S geary --noconfirm
 
 
 ######## S E T T I N G S       #########
@@ -85,7 +85,7 @@ sudo pacman -S geary
 
 # Theme, icons, borders, cursors
 
-sudo pacman -S oxygen-cursors
+sudo pacman -S oxygen-cursors --noconfirm
 
 
 ######## S Y S T E M           #########
@@ -94,17 +94,17 @@ sudo pacman -S oxygen-cursors
 
 # all kind of tools to get system information
 
-sudo pacman -S scrot screenfetch git htop wget lm_sensors sysstat glances 
-sudo pacman -S numlockx inxi dmidecode hddtemp mesa-demos archey3 mlocate hardinfo
+sudo pacman -S scrot screenfetch git htop wget lm_sensors sysstat glances  --noconfirm
+sudo pacman -S numlockx inxi dmidecode hddtemp mesa-demos archey3 mlocate hardinfo --noconfirm
 numlockx on
 
 
 # Monitor the partitions and format them
-sudo pacman -S gparted
+sudo pacman -S gparted --noconfirm
 
 # download statistics
 
-sudo pacman -S vnstat 
+sudo pacman -S vnstat  --noconfirm
 systemctl enable vnstat
 systemctl start vnstat
 
@@ -133,7 +133,7 @@ systemctl start vnstat
 
         # U T I L I T I E S #
 
-sudo pacman -S file-roller
+sudo pacman -S file-roller --noconfirm
 
         # P R I N T E R #
 
@@ -145,8 +145,8 @@ echo "################################################################"
 echo "sane"
 echo "################################################################"
 
-sudo pacman -S sane
-sudo pacman -S simple-scan 
+sudo pacman -S sane --noconfirm
+sudo pacman -S simple-scan --noconfirm
 
 # edit following file dll.conf and uncomment line with #hpaio
 # This is my current network printer hp aio photosmart 7520

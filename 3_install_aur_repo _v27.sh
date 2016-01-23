@@ -47,7 +47,7 @@ echo "################################################################"
 
 #packer sublime-edit --noedit
 
-packer sublime-text-dev --noedit
+packer sublime-text-dev --noedit --noconfirm
 
 ######## E D U C A T I O N     #########
 
@@ -61,13 +61,13 @@ echo "################################################################"
 echo "google chrome"
 echo "################################################################"
 
-packer google chrome --noedit
+packer google chrome --noedit --noconfirm
 
 echo "################################################################"
 echo "lastpass"
 echo "################################################################"
 
-packer lastpass --noedit
+packer lastpass --noedit --noconfirm
 
  ######## M U L T I M E D I A   #########
 
@@ -75,13 +75,13 @@ echo "################################################################"
 echo "spotify"
 echo "################################################################"
 
-packer spotify  --noedit
+packer spotify  --noedit --noconfirm
 
 echo "################################################################"
 echo "kazam"
 echo "################################################################"
 
-packer kazam --noedit
+packer kazam --noedit --noconfirm
 
 ######## O F F I C E           #########
 
@@ -89,7 +89,7 @@ echo "################################################################"
 echo "focuswriter"
 echo "################################################################"
 
-packer focuswriter --noedit
+packer focuswriter --noedit --noconfirm
 
 
 
@@ -97,11 +97,11 @@ packer focuswriter --noedit
 
         # I C O N S #
 
-packer numix-circle-icon-theme  --noedit
+packer numix-circle-icon-theme  --noedit --noconfirm
 
         # T H E M E S #
 
-packer numix-themes-archblue --noedit
+packer numix-themes-archblue --noedit --noconfirm
 
 
 echo "################################################################"
@@ -119,7 +119,7 @@ echo "################################################################"
 echo "xcursor-menda-git"
 echo "################################################################"
 
-packer xcursor-menda-git --noedit
+packer xcursor-menda-git --noedit --noconfirm
 
 
 
@@ -132,13 +132,13 @@ echo "################################################################"
 echo "dropbox"
 echo "################################################################"
 
-packer dropbox --noedit
+packer dropbox --noedit --noconfirm
 
 echo "################################################################"
 echo "copy-agent"
 echo "################################################################"
 
-packer copy-agent --noedit
+packer copy-agent --noedit --noconfirm
 
 
 
@@ -155,7 +155,7 @@ echo "################################################################"
 echo "font-manager"
 echo "################################################################"
 
-packer font-manager  --noedit
+packer font-manager  --noedit --noconfirm
 
 
         # U T I L I T I E S #
@@ -164,7 +164,7 @@ echo "################################################################"
 echo "imagewriter"
 echo "################################################################"
 
-packer imagewriter --noedit
+packer imagewriter --noedit --noconfirm
 
 
 ###############################################################

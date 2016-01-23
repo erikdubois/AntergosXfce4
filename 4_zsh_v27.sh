@@ -34,7 +34,7 @@ echo "################################################################"
 echo "installing zsh"
 echo "################################################################"
 
-sudo pacman -S zsh
+sudo pacman -S zsh --noconfirm
 
 
 #zsh enhancements
@@ -43,7 +43,7 @@ echo "################################################################"
 echo "installing zsh-completions"
 echo "################################################################"
 
-packer zsh-completions --noedit
+packer zsh-completions --noedit --noconfirm
 
 
 # Installation of OH-MY-ZSH from the github (best way to install!!)
