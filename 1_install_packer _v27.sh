@@ -76,7 +76,7 @@ echo "################################################################"
 echo "yaourt is normally already installed"
 echo "################################################################"
 
-# sudo pacman -S yaourt
+# sudo pacman -S yaourt --noconfirm
 
 # now we are downloading the aur helper I like
 
