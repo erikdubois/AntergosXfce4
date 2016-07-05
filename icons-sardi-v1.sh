@@ -58,38 +58,32 @@
 #
 ##################################################################################################################
 
-# echo "# Antergos Xfce4" >> README.md
-# git init
-# git add README.md
-# git commit -m "first commit"
-# git remote add origin https://github.com/erikdubois/AntergosXfce4.git
-# git push -u origin master
 
-# git config --global user.name x
-# git config --global user.email x
-# sudo git config --system core.editor nano
-# git config --global credential.helper cache
-# git config --global credential.helper 'cache --timeout=3600'
+########################################
+########        I C O N S      #########
+########################################
 
 
-# Force git to overwrite local files on pull - no merge
-
-# git fetch all
-# git reset --hard orgin/master
 
 
-# Below command will backup everything inside the project folder
-git add --all .
+# S A R D I
+# from sourceforge 
 
-echo "####################################"
-echo "Write your commit comment!"
-echo "####################################"
+version="5.6-0"
 
-read input
+wget http://downloads.sourceforge.net/project/sardi/sardi-icons-$version.tar.gz -P /tmp/sardi
+cd /tmp/sardi
+tar -zxvf /tmp/sardi/sardi-icons-$version.tar.gz
+rm /tmp/sardi/sardi-icons-$version.tar.gz
 
-# Committing to the local repository with a message containing the time details and commit text
-curtime=$(date)
-git commit -m "Commit comment : $input on $curtime"
+# if there is no hidden folder conky then make one
+[ -d $HOME"/./icons" ] || mkdir -p $HOME"/.icons"
 
-# Push the local snapshot to a remote destination
-git push -u origin master
+cp -r /tmp/sardi/* ~/.icons/
+rm -rf /tmp/sardi
+
+
+
+echo "################################################################"
+echo "###################    T H E   E N D      ######################"
+echo "################################################################"

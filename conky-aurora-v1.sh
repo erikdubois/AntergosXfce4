@@ -58,38 +58,21 @@
 #
 ##################################################################################################################
 
-# echo "# Antergos Xfce4" >> README.md
-# git init
-# git add README.md
-# git commit -m "first commit"
-# git remote add origin https://github.com/erikdubois/AntergosXfce4.git
-# git push -u origin master
-
-# git config --global user.name x
-# git config --global user.email x
-# sudo git config --system core.editor nano
-# git config --global credential.helper cache
-# git config --global credential.helper 'cache --timeout=3600'
 
 
-# Force git to overwrite local files on pull - no merge
+# C O N K Y   A U R O R A
+# from sourceforge 
 
-# git fetch all
-# git reset --hard orgin/master
+wget https://sourceforge.net/projects/auroraconkytheme/files/Aurora_v3.0.4.tar.gz -P /tmp/aurora
+cd /tmp/aurora
+tar -zxvf /tmp/aurora/Aurora_v3.0.4.tar.gz
+rm /tmp/aurora/Aurora_v3.0.4.tar.gz
+echo "Hidden folder .conky is created if it is not there"
+[ -d "~/.conky" ] || mkdir -p $HOME/".conky"
+cp -r /tmp/aurora/* ~/.conky/
 
 
-# Below command will backup everything inside the project folder
-git add --all .
 
-echo "####################################"
-echo "Write your commit comment!"
-echo "####################################"
-
-read input
-
-# Committing to the local repository with a message containing the time details and commit text
-curtime=$(date)
-git commit -m "Commit comment : $input on $curtime"
-
-# Push the local snapshot to a remote destination
-git push -u origin master
+echo "################################################################"
+echo "###################    T H E   E N D      ######################"
+echo "################################################################"

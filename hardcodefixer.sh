@@ -58,38 +58,36 @@
 #
 ##################################################################################################################
 
-# echo "# Antergos Xfce4" >> README.md
-# git init
-# git add README.md
-# git commit -m "first commit"
-# git remote add origin https://github.com/erikdubois/AntergosXfce4.git
-# git push -u origin master
 
-# git config --global user.name x
-# git config --global user.email x
-# sudo git config --system core.editor nano
-# git config --global credential.helper cache
-# git config --global credential.helper 'cache --timeout=3600'
+# if there is already a folder, delete or else do nothing
+
+echo "The script will install itself in the /tmp/hardcode-fixer folder"
+echo "It will run from there"
+echo "Upon next boot the tmp folder will be empty again"
+echo "#################################################"
 
 
-# Force git to overwrite local files on pull - no merge
+[ -d /tmp/hardcode-fixer ] && rm -rf "/tmp/hardcode-fixer" || echo ""
 
-# git fetch all
-# git reset --hard orgin/master
+git clone https://github.com/Foggalong/hardcode-fixer /tmp/hardcode-fixer
 
+if ! foobar_loc="$(type -p "curl")" || [ -z "curl" ]; then
 
-# Below command will backup everything inside the project folder
-git add --all .
+	echo "#################################################"
+	echo "installing curl for this script to work"
+	echo "#################################################"
 
-echo "####################################"
-echo "Write your commit comment!"
-echo "####################################"
+  	sudo apt install curl
+fi
 
-read input
+echo "#################################################"
+echo "Checking and changing all hardcoded icons"
+echo "#################################################"
 
-# Committing to the local repository with a message containing the time details and commit text
-curtime=$(date)
-git commit -m "Commit comment : $input on $curtime"
+sudo /tmp/hardcode-fixer/fix.sh
 
-# Push the local snapshot to a remote destination
-git push -u origin master
+echo
+echo
+echo "################################################################"
+echo "###################    T H E   E N D      ######################"
+echo "################################################################"

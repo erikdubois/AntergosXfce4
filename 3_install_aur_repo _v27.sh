@@ -1,4 +1,11 @@
-#!/bin/bash
+!/bin/bash 
+############################################################################
+# Written to be used on 64 bits computers
+# Author 	: 	Erik Dubois
+# Website 	: 	http://www.erikdubois.be
+############################################################################
+#
+#                                       
 #              `.-/::/-``
 #            .-/osssssssso/.               
 #           :osyysssssssyyys+-              
@@ -17,17 +24,39 @@
 #-dmmmdddddddhhyso++++oshhhhdddddddmmmmd- 
 # .smmmmddddddddhhhhhhhhhdddddddddmmmms. 
 #   `+ydmmmdddddddddddddddddddmmmmdy/.     
-#      `.:+ooyyddddddddddddyyso+:.`
-#======================================================================================
-
-#======================================================================================
-#       
-# Author  : Erik Dubois at http://www.erikdubois.be
-# License : Distributed under the terms of GNU GPL version 2 or later
+#      `.:+ooyyddddddddddddyyso+:.`                               
+#
+#
+#
+############################################################################
 # 
-# AS ALLWAYS, KNOW WHAT YOU ARE DOING.
-#======================================================================================
-
+# More from Erik Dubois
+#
+# Aurora Conky
+# at http://sourceforge.net/projects/auroraconkytheme/
+# Explanation on the use of this theme can be found at 
+# http://erikdubois.be/category/linux/aurora-conky/
+# 
+# Aureola Conky
+# Collections of nice conky's with lua syntax
+# https://github.com/erikdubois/Aureola
+#
+# Sardi icons
+# Many different styles of icons from colourfull, monochrome, white, circle
+# https://sourceforge.net/projects/sardi/
+#
+# Super Ultra Flat Numix Remix
+# Colourfull and playfull icons
+# https://github.com/erikdubois/Super-Ultra-Flat-Numix-Remix
+#
+# Check out the github - many more scripts for automatic installation of Linux Systems.
+#
+#
+##################################################################################################################
+#
+#   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. AT YOUR OWN RISK.
+#
+##################################################################################################################
 
 ########################################
 ########    A P P S    A U R    ########
@@ -67,7 +96,7 @@ echo "################################################################"
 echo "lastpass"
 echo "################################################################"
 
-packer lastpass --noedit --noconfirm
+#packer lastpass --noedit --noconfirm
 
  ######## M U L T I M E D I A   #########
 
@@ -102,6 +131,8 @@ packer numix-circle-icon-theme  --noedit --noconfirm
         # T H E M E S #
 
 packer numix-themes-archblue --noedit --noconfirm
+packer gtk-theme-arc-git --noedit --noconfirm
+packer vertex-themes --noedit --noconfirm
 
 
 echo "################################################################"
@@ -120,6 +151,7 @@ echo "xcursor-menda-git"
 echo "################################################################"
 
 packer xcursor-menda-git --noedit --noconfirm
+packer xcursor-breeze --noedit --noconfirm
 
 
 
@@ -132,13 +164,7 @@ echo "################################################################"
 echo "dropbox"
 echo "################################################################"
 
-packer dropbox --noedit --noconfirm
-
-echo "################################################################"
-echo "copy-agent"
-echo "################################################################"
-
-packer copy-agent --noedit --noconfirm
+#packer dropbox --noedit --noconfirm
 
 
 

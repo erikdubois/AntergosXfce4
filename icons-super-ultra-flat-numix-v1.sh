@@ -58,38 +58,15 @@
 #
 ##################################################################################################################
 
-# echo "# Antergos Xfce4" >> README.md
-# git init
-# git add README.md
-# git commit -m "first commit"
-# git remote add origin https://github.com/erikdubois/AntergosXfce4.git
-# git push -u origin master
 
-# git config --global user.name x
-# git config --global user.email x
-# sudo git config --system core.editor nano
-# git config --global credential.helper cache
-# git config --global credential.helper 'cache --timeout=3600'
+# Y L T R A  F L A T  I C O N S
+
+git clone https://github.com/erikdubois/Super-Ultra-Flat-Numix-Remix /tmp/Super-Ultra-Flat-Numix-Remix
+cp -r /tmp/Super-Ultra-Flat-Numix-Remix/* ~/.icons/
+rm -rf /tmp/Super-Ultra-Flat-Numix-Remix
 
 
-# Force git to overwrite local files on pull - no merge
 
-# git fetch all
-# git reset --hard orgin/master
-
-
-# Below command will backup everything inside the project folder
-git add --all .
-
-echo "####################################"
-echo "Write your commit comment!"
-echo "####################################"
-
-read input
-
-# Committing to the local repository with a message containing the time details and commit text
-curtime=$(date)
-git commit -m "Commit comment : $input on $curtime"
-
-# Push the local snapshot to a remote destination
-git push -u origin master
+echo "################################################################"
+echo "###################    T H E   E N D      ######################"
+echo "################################################################"
