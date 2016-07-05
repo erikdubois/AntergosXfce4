@@ -69,7 +69,7 @@
 # S A R D I
 # from sourceforge 
 
-version="5.6-0"
+version="5.6-4"
 
 wget http://downloads.sourceforge.net/project/sardi/sardi-icons-$version.tar.gz -P /tmp/sardi
 cd /tmp/sardi
