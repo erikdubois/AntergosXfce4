@@ -18,6 +18,10 @@ http://build.antergos.com/browse/testing
 
 ![Screenshots](http://i.imgur.com/12YgpG2.png)
 
+![Screenshots](http://i.imgur.com/lcZc8Fc.png)
+
+
+
 
 
 # What elements do I use?
