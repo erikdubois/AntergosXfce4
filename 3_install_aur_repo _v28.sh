@@ -90,7 +90,7 @@ echo "################################################################"
 echo "google chrome"
 echo "################################################################"
 
-packer google chrome --noedit --noconfirm
+#packer google chrome --noedit --noconfirm
 
 echo "################################################################"
 echo "lastpass"
@@ -118,7 +118,7 @@ echo "################################################################"
 echo "focuswriter"
 echo "################################################################"
 
-packer focuswriter --noedit --noconfirm
+# packer focuswriter --noedit --noconfirm
 
 
 
@@ -181,7 +181,7 @@ echo "################################################################"
 echo "font-manager"
 echo "################################################################"
 
-packer font-manager  --noedit --noconfirm
+#packer font-manager  --noedit --noconfirm
 
 
         # U T I L I T I E S #
