@@ -26,13 +26,9 @@ Sardi icons  at http://erikdubois.be/category/sardi-icons/
 
 Aureola conky's at http://erikdubois.be/category/linux/aureola/
 
-Surfn icons at 
+Surfn icons at https://github.com/erikdubois/Surfn
 
-https://github.com/erikdubois/Surfn
-
-Plank themes at 
-
-https://github.com/erikdubois/Plank-Themes
+Plank themes at https://github.com/erikdubois/Plank-Themes
 
 #What can you do if the script does not execute?
 
