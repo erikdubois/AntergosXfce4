@@ -24,6 +24,8 @@ http://build.antergos.com/browse/testing
 
 ![Screenshots](http://i.imgur.com/UUiWdyW.png)
 
+![Screenshots](http://i.imgur.com/uwEkpiS.png)
+
 
 
 # What elements do I use?
