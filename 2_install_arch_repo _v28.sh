@@ -129,6 +129,8 @@ sudo pacman -S scrot screenfetch git htop wget lm_sensors sysstat glances  --noc
 sudo pacman -S numlockx inxi dmidecode hddtemp mesa-demos archey3 mlocate hardinfo --noconfirm
 numlockx on
 
+sudo pacman -S xfce4-whiskermenu-plugin --noconfirm
+
 
 # Monitor the partitions and format them
 sudo pacman -S gparted --noconfirm
