@@ -127,6 +127,8 @@ echo "################################################################"
         # I C O N S #
 
 packer numix-circle-icon-theme  --noedit --noconfirm
+packer sardi --noedit --noconfirm
+packer surfn --noedit --noconfirm
 
         # T H E M E S #
 

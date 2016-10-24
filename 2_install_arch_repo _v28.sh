@@ -102,6 +102,7 @@ sudo pacman -S filezilla --noconfirm
 sudo pacman -S vlc --noconfirm
 #sudo pacman -S clementine --noconfirm
 sudo pacman -S shotwell --noconfirm
+sudo pacman -S simplescreenrecoder --noconfirm
 
 
 ######## O F F I C E           #########
