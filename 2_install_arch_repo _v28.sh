@@ -125,7 +125,7 @@ sudo pacman -S oxygen-cursors --noconfirm
 
 # all kind of tools to get system information
 
-sudo pacman -S scrot screenfetch git htop wget lm_sensors sysstat glances  --noconfirm
+sudo pacman -S catfish scrot screenfetch dconf-editor git htop wget lm_sensors sysstat glances  --noconfirm
 sudo pacman -S numlockx inxi dmidecode hddtemp mesa-demos archey3 mlocate hardinfo --noconfirm
 numlockx on
 
