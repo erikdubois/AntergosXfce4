@@ -28,7 +28,7 @@ http://build.antergos.com/browse/testing
 
 Personal colour for Arc Theme using scripts at https://github.com/erikdubois/arc-theme-colora
 
-Arc Dark Red
+##Arc Dark Red
 
 ![Screenshots](http://i.imgur.com/wn4AqWa.png)
 
