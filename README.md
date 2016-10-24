@@ -16,6 +16,9 @@ http://build.antergos.com/browse/testing
 
 # What can you achieve?
 
+![Screenshots](http://i.imgur.com/12YgpG2.png)
+
+
 ![Screenshots](http://i.imgur.com/asvq3zh.jpg)
 
 
