@@ -19,20 +19,20 @@ http://build.antergos.com/browse/testing
 ![Screenshots](http://i.imgur.com/12YgpG2.png)
 
 
-![Screenshots](http://i.imgur.com/asvq3zh.jpg)
 
+# What elements do I use?
 
-![Screenshots](http://i.imgur.com/uFNvoBS.jpg)
+Sardi icons  at http://erikdubois.be/category/sardi-icons/
 
+Aureola conky's at http://erikdubois.be/category/linux/aureola/
 
-![Screenshots](http://i.imgur.com/b3RFur8.jpg)
+Surfn icons at 
 
+https://github.com/erikdubois/Surfn
 
-On the far right you see the conky "Aurora" hosted on Sourceforge.
+Plank themes at 
 
-http://sourceforge.net/projects/auroraconkytheme/
-
-
+https://github.com/erikdubois/Plank-Themes
 
 #What can you do if the script does not execute?
 
