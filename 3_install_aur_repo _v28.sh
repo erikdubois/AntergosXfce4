@@ -194,6 +194,9 @@ echo "################################################################"
 
 packer imagewriter --noedit --noconfirm
 
+# error install twice 10/2016
+# packer mintstick-git --noedit --noconfirm
+
 
 ###############################################################
 #
