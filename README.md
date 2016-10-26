@@ -126,18 +126,16 @@ I decided to split the logical entities in seperate files or logical entities. B
 The scripts have been numbered from 1 to 6. Follow the orderering to install all programs.
 
 
-    
-
-    ./1_install_packer_vx.sh
-
-This will install the program packer. It is a wrapper for yaourt which is already installed. Packer will serve as the aur helper from there on.
-
-
-
-
-    ./2_install_arch_repo _vx.sh
+    ./1_install_arch_repo _vx.sh
 
 This will install all programs coming from the "normal" arch repositories with the use of pacman.
+
+
+    
+
+    ./2_install_packer_vx.sh
+
+This will install the program packer. It is a wrapper for yaourt which is already installed. Packer will serve as the aur helper from there on.
 
 
 
