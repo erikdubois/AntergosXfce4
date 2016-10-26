@@ -74,7 +74,6 @@ echo "################################################################"
 echo "sublime-text-dev"
 echo "################################################################"
 
-#packer sublime-edit --noedit
 
 packer sublime-text-dev --noedit --noconfirm
 

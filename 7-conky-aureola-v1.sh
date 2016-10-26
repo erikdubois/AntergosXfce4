@@ -39,7 +39,7 @@ echo "Install git for an easy installation"
 		echo "installing git for this script to work"
 		echo "################################################################"
 
-	  	sudo apt-get install git -y
+	  	sudo pacman -S install git
 		  	
 	fi
 

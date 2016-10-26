@@ -151,9 +151,7 @@ systemctl start vnstat
 #sudo pacman -S alsa-utils alsa-plugins alsa-lib alsa-firmware pulseaudio pulseaudio-alsa pavucontrol
 #sudo pacman -S gst-plugins-good gst-plugins-bad gst-plugins-base gst-plugins-ugly  gstreamer0.10-ffmpeg
 
-# for kazam
 
-#sudo pacman -S libsrtp
 #sudo pacman -S volumeicon
 
 
@@ -181,8 +179,6 @@ echo "################################################################"
 sudo pacman -S sane --noconfirm
 sudo pacman -S simple-scan --noconfirm
 
-# edit following file dll.conf and uncomment line with #hpaio
-# This is my current network printer hp aio photosmart 7520
 
 # sudo nano /etc/sane.d/dll.conf
 
