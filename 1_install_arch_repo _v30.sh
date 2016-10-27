@@ -131,6 +131,9 @@ numlockx on
 
 sudo pacman -S xfce4-whiskermenu-plugin --noconfirm
 
+# in order for the conky aureola to know it is on arch
+sudo pacman -S lsb-release --noconfirm
+
 
 # Monitor the partitions and format them
 sudo pacman -S gparted --noconfirm
