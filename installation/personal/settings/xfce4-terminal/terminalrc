@@ -27,4 +27,5 @@ ScrollingBar=TERMINAL_SCROLLBAR_NONE
 FontName=Monospace 15
 BackgroundMode=TERMINAL_BACKGROUND_TRANSPARENT
 BackgroundDarkness=0.470000
+ScrollingOnOutput=FALSE
 
