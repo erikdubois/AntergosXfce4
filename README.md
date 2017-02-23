@@ -19,6 +19,8 @@ Let us first take a screenshot of the initial look of this distro.
 
 # What can you achieve?
 
+![Screenshots](http://i.imgur.com/jBPViH5.jpg)
+
 ![Screenshots](http://i.imgur.com/12YgpG2.png)
 
 ![Screenshots](http://i.imgur.com/lcZc8Fc.png)
@@ -29,7 +31,6 @@ Let us first take a screenshot of the initial look of this distro.
 
 ![Screenshots](http://i.imgur.com/uwEkpiS.png)
 
-![Screenshots](http://i.imgur.com/jBPViH5.jpg)
 
 
 
