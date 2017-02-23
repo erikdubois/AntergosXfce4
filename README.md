@@ -94,8 +94,6 @@ You can also use
 	- yaourt -S sardi-icons 
 
 
-![Screenshots](http://i.imgur.com/xtOZKbX.jpg)
-
 
 Sardi is **meant to be changed by the users**. You can use scripts to change the hexadecimal colour code in about 3 seconds.
 
@@ -117,7 +115,6 @@ https://github.com/erikdubois/Sardi-Extra
 
 These icons can be downloaded but will not be maintained. Nor are they part of the core icons of Sardi. They are the result of ideas and scripts that are included in Sardi icons.
 
-![Screenshots](http://i.imgur.com/W8HfRPJ.jpg)
 
 More documentation on http://erikdubois.be/category/sardi-icons/
 
@@ -134,8 +131,6 @@ You can also use
 	- pacaur -S surfn-icons 
 	- yaourt -S surfn-icons 
 
-
-![Screenshots](http://i.imgur.com/g9jtffi.jpg)
 
 
 
