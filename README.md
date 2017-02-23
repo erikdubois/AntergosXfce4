@@ -58,11 +58,6 @@ Some of the applications that will be installed are
 There are other scripts for more applications. If needed, you can install them individually.
 
 
-##Change the theme
-
-Sometimes you can change the present theme to its dark equivalent. This is the case in Gnome. 
-In the gnome-tweak-tool you can change this.
-
 
 ##Install Arc Theme
 
