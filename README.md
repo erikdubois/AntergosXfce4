@@ -1,17 +1,20 @@
 # AntergosXfce4
 
-Antergos with the latest XFCE edition.
+##How to install Antergos Xfce and customize it
 
+All information about the installation and customization of Antergos Xfce can be found in this **article** and is explained in **several youtube tutorials** : 
 
-This is my configuration for XFCE to be used on the Antergos distribution.
+http://erikdubois.be/how-to-install-xfce-on-antergos-and-customize-it/
 
-I wrote an installation document "read_me_installation_xfce_ base_vx" to cover some specific issues.
-
-Official downloads can be found at 
+Official antergos downloads can be found at 
 http://antergos.com/try-it/
 
-Development downloads can be found at
-http://build.antergos.com/browse/testing
+
+# Initial look
+
+Let us first take a screenshot of the initial look of this distro.
+
+![Screenshots](http://i.imgur.com/ZGegr20.jpg)
 
 
 # What can you achieve?
@@ -26,155 +29,231 @@ http://build.antergos.com/browse/testing
 
 ![Screenshots](http://i.imgur.com/uwEkpiS.png)
 
-![Screenshots](http://i.imgur.com/6fcjRyz.png)
+![Screenshots](http://i.imgur.com/jBPViH5.jpg)
 
-Personal colour for Arc Theme using scripts at https://github.com/erikdubois/arc-theme-colora
 
-##Arc Dark Red
 
-![Screenshots](http://i.imgur.com/wn4AqWa.png)
+##Software installation
 
+We start the installation scripts of all the needed software via the terminal.
+ 
 
+Do not forget to type "./" in front of the name.
 
-# What elements do I use?
 
-Sardi icons  at http://erikdubois.be/category/sardi-icons/
+These scripts will point to some of the other scripts in the folder. So keep them together.
 
-Aureola conky's at http://erikdubois.be/category/linux/aureola/
 
-Surfn icons at https://github.com/erikdubois/Surfn
+Some of the applications that will be installed are
 
-Plank themes at https://github.com/erikdubois/Plank-Themes
+	Spotify
+	Sublime Text
+	Variety
+	Inkscape
+	Plank
+	Screenfetch
+	...
 
-#What can you do if the script does not execute?
+There are other scripts for more applications. If needed, you can install them individually.
 
-Since I sometimes forget to make the script executable, I include here what you can do to solve that.
 
-A script can only run when it is marked as an executable.
+##Change the theme
 
-	ls -al 
+Sometimes you can change the present theme to its dark equivalent. This is the case in Gnome. 
+In the gnome-tweak-tool you can change this.
 
-Above code will reveal if a script has an "x". X meaning executable.
-Google "chmod" and "execute" and you will find more info.
 
-For now if this happens, you should apply this code in the terminal and add the file name.
+##Install Arc Theme
 
-	chmod +x typeyourfilename
 
-Then you can execute it by typing
+Ofcourse you can install new themes. I like the **Arc** theme which I will use in the later screenshots. 
 
-	./typeyourfilename
+I install the **original blue** Arc theme but also my personally created Arc themes (see Arc Colora folder).
 
 
 
-# A N T E R G O S and  A R C H L I N U X
--------------------------------------------------
+##Install your individual Arc Theme
 
-I started using Archlinux as a learning experience. I have tried installing all kinds of desktop environments (DE) and formatted many times my ssd's to start from scratch. Then I started exploring other distro's based on Archlinux. After a while it was more practical to have a script of some kind to record the knowledge and to automate the things I had already learned. They became repetitive in nature.
+You can change the blue accent colour from the Arc theme with these scripts to **any colour** you like : 
 
-The goal is to be quickly up and running after a clean install. 
+Read here for more info on Arc Based Themes : http://erikdubois.be/category/themes/arc-based-themes/
 
-That's why I have written a script to do just that. 
+More info about Arc Colora : https://github.com/erikdubois/Arc-Theme-Colora
 
-#1. Installation of the ANTERGOS system
 
-Download the iso and burn it on a cd or use an usb.
 
-USB
+##Download the Sardi icons
 
-	sudo fdisk -l
-	sudo dd bs=4M if=/path/to/antergos.iso of=/dev/sdX &&  sync
+You can install the sardi icons via the scripts
 
 
-	or
+This icon theme can be downloaded at sourceforge.
 
-	sudo packer -S imagewriter
+http://sourceforge.net/projects/sardi/
 
-Cdrom
+You can also use
 
-	use brasero, xfburn or others
+	- packer -S sardi-icons 
+	- pacaur -S sardi-icons 
+	- yaourt -S sardi-icons 
 
-During this installation you will have to choose your desktop environment (DE). 
 
-At the time of writing you can choose
+![Screenshots](http://i.imgur.com/xtOZKbX.jpg)
 
-	- base installation (no DE)
-	- GNOME
-	- kde
-	- cinnamon
-	- mate
-	- xfce4
-	- openbox
 
-This page is about installing XFCE.
+Sardi is **meant to be changed by the users**. You can use scripts to change the hexadecimal colour code in about 3 seconds.
 
-#2. Installation via script
 
-I run an installation script to quickly  get all my software after the installation of Antergos. For me this was quite a learning process, since I was a Redhat, Ubuntu, Linux Mint kind of guy over the last two decades. You will probably see this in my selection of software.
+Start your reading about Sardi here : http://erikdubois.be/overview-sardi-icons-version-9-sardi-extra-icons/
 
-The idea is to download (if you have internet connection) the i3 github files :
+Follow the collection on google+ : https://plus.google.com/u/0/collection/YFP-LB
 
-	sudo pacman -S git
-	git clone https://github.com/erikdubois/AntergosXce4
+The most recent pictures can be found there.
 
-This folder that you will download will give you all the installation scripts necessary to fully install the desktop.
+More documentation on http://erikdubois.be/category/sardi-icons/
 
-Change, delete and append whatever you want.
 
-I decided to split the logical entities in seperate files or logical entities. Better to debug and better for users to understand.
+##Download the Sardi-extra icons
 
-The scripts have been numbered from 1 to 6. Follow the orderering to install all programs.
+There is also a collection of **Sardi Extra** icons at 
 
+https://github.com/erikdubois/Sardi-Extra
 
-    ./1_install_arch_repo _vx.sh
+These icons can be downloaded but will not be maintained. Nor are they part of the core icons of Sardi. They are the result of ideas and scripts that are included in Sardi icons.
 
-This will install all programs coming from the "normal" arch repositories with the use of pacman.
+![Screenshots](http://i.imgur.com/W8HfRPJ.jpg)
 
+More documentation on http://erikdubois.be/category/sardi-icons/
 
-    
 
-    ./2_install_packer_vx.sh
+##Download the Surfn icons
 
-This will install the program packer. It is a wrapper for yaourt which is already installed. Packer will serve as the aur helper from there on.
 
+For ease of installation I use the script.
 
 
+You can also use
 
-    ./3_install_aur_repo _vx.sh
+	- packer -S surfn-icons 
+	- pacaur -S surfn-icons 
+	- yaourt -S surfn-icons 
 
-This will install all programs coming from the AUR repositories.
 
-If you see a program, you do not want. Just press ENTER and no number and it will be skipped.
-In the script you will see a text to know which one you need to choose.
+![Screenshots](http://i.imgur.com/g9jtffi.jpg)
 
-    For example
 
-    echo "################################################################"
-    echo "spotify"
-    echo "################################################################"
 
-When that is done you run
+More info can be found here : https://github.com/erikdubois/Surfn
 
 
+##Install the Aureola conky collection
 
 
-    ./4_zsh_vx.sh
+This is an exercise in writing conky configurations in lua syntax.
 
-The zsh script is an alternative for "bash" more colourfull (>100 themes) and more plugins then you ever need.
 
+In above screenshots you can see the conky's at work.
 
 
+More information can be found here : http://erikdubois.be/category/linux/aureola/
 
 
-    ./5_smb_vx.sh
+##Change the cursor
 
-The smb script is to install samba or the way to share folders and files between computers if you need it.
 
+I like the breeze cursors.
 
-Do check out all the other scripts for installing icons and conky's.
 
+![Screenshots](http://i.imgur.com/wHp0I9s.png)
 
-<h2>Give it a go because <b> A N T E R G O S </b> deserves to be more known.</h2>
+	
+##Install the plank and download 100+ themes
+
+
+Plank is installed via the main scripts.
+
+If you want to install 100+ plank themes, you need to run the script.
+
+
+Find plank in the menu and start it. <b>CTRL + Right-click</b> on the plank and choose preferences
+and put in on top. 
+
+Surfn icons and all plank themes
+
+![Screenshots](http://i.imgur.com/CRfb4Qo.gif)
+
+Sardi icons and all plank themes
+
+![Screenshots](http://i.imgur.com/dnmq1g0.gif)
+
+
+
+Read more on plank e.g. how to autostart plank on boot : http://erikdubois.be/category/linux/plank/
+
+
+##Change from bash to zsh in your terminal
+
+I like bash but I prefer zsh with lots of different themes from oh-my-zsh to spice things up. So let us install that via the script.
+
+
+![Screenshots](http://i.imgur.com/kehYX70.jpg)
+
+
+##Download this github for ease of installation
+
+You can run any of these scripts by downloading the zip file from github. Go to the download folder and right-click to **Extract here**.
+Go inside the folder and right-click <b>in a blank space</b> to go to the terminal. Now your terminal is opened in this extracted folder.
+
+or 
+
+use the git clone command
+
+
+
+# Youtube Resources Antergos Xfce
+
+
+https://www.youtube.com/???????????????
+
+
+# Youtube Resources all Antergos
+
+
+https://www.youtube.com/playlist?list=PLlloYVGq5pS5DGx2EHIZxOGVTf9JikalO
+
+
+# Resources
+
+
+**Sardi icons**
+
+http://erikdubois.be/category/sardi-icons/
+
+https://sourceforge.net/projects/sardi/files/
+
+**Surfn icons**
+
+https://github.com/erikdubois/Surfn
+
+**Aureola conky**
+	
+http://erikdubois.be/category/linux/aureola/
+
+https://github.com/erikdubois/Aureola
+
+**Arc Colora**
+
+http://erikdubois.be/category/themes/arc-based-themes/	
+
+https://github.com/erikdubois/Arc-Theme-Colora
+
+**Plank and 100+ Plank Themes**
+
+http://erikdubois.be/category/linux/plank/
+
+https://github.com/erikdubois/Plank-Themes
+
+
 
 
 # F  A  Q
