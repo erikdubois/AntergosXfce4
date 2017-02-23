@@ -14,7 +14,7 @@ http://antergos.com/try-it/
 
 Let us first take a screenshot of the initial look of this distro.
 
-![Screenshots](http://i.imgur.com/ZGegr20.jpg)
+TO DOOOOOO!!!!!!!!!!!!!
 
 
 # What can you achieve?
