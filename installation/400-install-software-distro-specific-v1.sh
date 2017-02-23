@@ -20,7 +20,7 @@ echo "################################################################"
 
 sudo pacman -S noto-fonts --noconfirm --needed
 sudo pacman -S xfce4-whiskermenu-plugin --noconfirm
-
+sudo pacman -S mugshot --noconfirm
 
 
 echo "################################################################"
