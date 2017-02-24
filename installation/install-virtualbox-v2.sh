@@ -80,7 +80,8 @@ else
 	if pacman -Qi packer &> /dev/null; then
 
 		echo "Installing with packer"
-		packer -S --noconfirm --noedit  $package
+		echo "confirm installation of virtualbox-host-modules-arch"
+		packer -S --noedit  $package
 
 	elif pacman -Qi pacaur &> /dev/null; then
 		
