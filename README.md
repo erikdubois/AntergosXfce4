@@ -204,7 +204,7 @@ use the git clone command
 # Youtube Resources Antergos Xfce
 
 
-https://www.youtube.com/???????????????
+https://www.youtube.com/playlist?list=PLlloYVGq5pS5A_M2iK7yo7StUsNYKqilM
 
 
 # Youtube Resources all Antergos
