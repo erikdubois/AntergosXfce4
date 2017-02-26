@@ -16,6 +16,11 @@ echo "installing compton"
 
 sudo pacman -S compton --noconfirm --needed
 
+echo "move the compton file in the ~/.config directory"
+echo "change to your liking"
+echo "start compton in the session and startup"
+echo "disable the compositor in the windows manager tweaks "
+
 
 echo "################################################################"
 echo "#########           compton installed           ################"
