@@ -43,6 +43,7 @@
       <property name="&lt;Alt&gt;f" type="string" value="variety -f"/>
       <property name="Print" type="string" value="xfce4-screenshooter -f"/>
       <property name="&lt;Primary&gt;Print" type="string" value="gnome-screenshot -i"/>
+      <property name="&lt;Primary&gt;&lt;Shift&gt;Escape" type="string" value="xfce4-taskmanager"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
